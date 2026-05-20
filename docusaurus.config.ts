@@ -11,8 +11,8 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://karan-khu.github.io',
-  baseUrl: '/karan-profile/',
+  url: 'https://karan-khu.online',
+  baseUrl: '/',
 
   organizationName: 'karan-khu',
   projectName: 'karan-profile',
