@@ -1,0 +1,24 @@
+meeting:
+  label: Meeting / Share Tech
+  permalink: /meeting
+  description: บันทึก meeting share tech ภายในและภายนอกบริษัท
+
+teaching:
+  label: Teaching
+  permalink: /teaching
+  description: รับเชิญไปสอน บรรยาย หรือทำ workshop
+
+training:
+  label: Training
+  permalink: /training
+  description: คอร์ส, อบรม และ certificate ที่เข้าร่วม
+
+talk:
+  label: Talk
+  permalink: /talk
+  description: Talk ในงาน meetup, conference
+
+note:
+  label: Note
+  permalink: /note
+  description: บันทึกทั่วไป, สิ่งที่ได้เรียนรู้
