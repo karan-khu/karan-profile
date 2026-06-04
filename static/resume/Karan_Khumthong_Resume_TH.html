@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <title>การัณย์ ขุมทอง — Resume (TH)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300;400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #1a1a1a;
+      --muted: #555;
+      --rule: #c8c8c8;
+      --accent: #111;
+      --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      --body: "IBM Plex Sans Thai", "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html, body { background: #f4f4f5; }
+    body {
+      font-family: var(--body);
+      color: var(--ink);
+      font-size: 9.5pt;
+      line-height: 1.48;
+      margin: 0;
+      padding: 24px 12px;
+      -webkit-font-smoothing: antialiased;
+      font-weight: 400;
+    }
+    .page {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 30px 40px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+      border-radius: 4px;
+    }
+    h1 {
+      font-size: 20pt;
+      letter-spacing: 0.3px;
+      margin: 0 0 2px 0;
+      text-align: center;
+      font-weight: 600;
+    }
+    .role {
+      text-align: center;
+      font-size: 10pt;
+      color: var(--muted);
+      margin: 0 0 3px 0;
+      font-weight: 400;
+    }
+    .contact {
+      text-align: center;
+      font-size: 9pt;
+      color: var(--muted);
+      margin: 0 0 10px 0;
+    }
+    h2 {
+      font-size: 9.5pt;
+      letter-spacing: 0.4px;
+      margin: 10px 0 3px 0;
+      padding-bottom: 2px;
+      border-bottom: 1px solid var(--rule);
+      font-weight: 600;
+    }
+    h3 {
+      font-size: 10pt;
+      margin: 6px 0 1px 0;
+      font-weight: 600;
+    }
+    .meta {
+      font-size: 8.5pt;
+      color: var(--muted);
+      margin: 0 0 3px 0;
+    }
+    .subhead {
+      font-weight: 500;
+      margin: 5px 0 1px 0;
+    }
+    .subhead .sub {
+      font-weight: 400;
+      color: var(--muted);
+      font-style: italic;
+    }
+    p { margin: 2px 0; }
+    ul { margin: 2px 0 5px 0; padding-left: 18px; }
+    li { margin: 2px 0; }
+    strong { font-weight: 600; }
+    em { color: var(--muted); }
+    .skills { width: 100%; border-collapse: collapse; margin: 2px 0 0 0; }
+    .skills td {
+      vertical-align: top;
+      padding: 2px 8px 2px 0;
+      font-size: 8.5pt;
+    }
+    .skills td.cat {
+      width: 26%;
+      font-weight: 600;
+      color: var(--accent);
+      white-space: nowrap;
+    }
+    .summary { text-align: justify; }
+    .languages { font-size: 9.5pt; }
+    .right {
+      float: right;
+      color: var(--muted);
+      font-weight: 400;
+      font-style: italic;
+      font-size: 8.5pt;
+    }
+    .clearfix::after { content: ""; display: table; clear: both; }
+    .inline-note { margin: 5px 0 1px 0; }
+
+    @media print {
+      html, body { background: #fff; }
+      body { padding: 0; font-size: 9pt; line-height: 1.45; orphans: 3; widows: 3; }
+      .page {
+        box-shadow: none;
+        border-radius: 0;
+        padding: 16px 22px;
+        max-width: none;
+      }
+      h2 { margin-top: 9px; break-after: avoid-page; page-break-after: avoid; }
+      h3, .subhead { break-after: avoid-page; page-break-after: avoid; }
+      ul, table, .skills { break-inside: avoid-page; page-break-inside: avoid; }
+    }
+    @page { size: A4; margin: 9mm 11mm; }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <h1>การัณย์ ขุมทอง</h1>
+    <p class="role">Software Developer / Full-Stack Developer</p>
+    <p class="contact">092-346-1875 &middot; ka12m.karan@gmail.com &middot; Bangkok Rama 3, Thailand</p>
+
+    <h2>เกี่ยวกับฉัน</h2>
+    <p class="summary">
+      Software Developer ประสบการณ์เกือบ 3 ปีที่ Dplus Intertrade (Zettasoft) ทำงานครอบคลุมทั้ง frontend, mobile, backend และ infrastructure เป็น developer หลักของแพลตฟอร์มที่เชื่อมต่อ hardware สำหรับเครื่องตัดฟิล์ม ครอบคลุม React Native app 2 ตัว (ตัวลูกค้าบน Play Store / App Store + ตัวที่ติดตั้งในร้านเพื่อควบคุม hardware), admin web ด้วย Preact, backend ทั้ง Go และ Node.js และการ migrate ระบบไป Kubernetes เปิดรับโอกาสตำแหน่ง Full-Stack Developer ที่ได้ทำงานครอบคลุมทั้ง frontend, backend และ infrastructure
+    </p>
+
+    <h2>ประสบการณ์การทำงาน</h2>
+    <div class="clearfix">
+      <span class="right">ม.ค. 2024 – ปัจจุบัน</span>
+      <h3>Software Developer &middot; Dplus Intertrade (Zettasoft)</h3>
+    </div>
+    <p class="meta"><em>แผนกพัฒนาซอฟต์แวร์ภายในของ Dplus Intertrade ผู้จัดจำหน่ายอุปกรณ์เสริมโทรศัพท์มือถือ</em></p>
+
+    <p class="subhead">งานปัจจุบัน — แพลตฟอร์มเครื่องตัดฟิล์ม <span class="sub">(ระบบภายในสำหรับร้านค้าฟิล์มมือถือ)</span></p>
+    <ul>
+      <li><strong>Mobile (React Native):</strong> ส่งงาน production 2 แอป — แอปฝั่งลูกค้าเผยแพร่บน Google Play และ Apple App Store และแอปบน tablet ที่ติดอยู่ในร้าน ใช้ควบคุม hardware ของเครื่องตัดผ่าน native modules</li>
+      <li><strong>Frontend web:</strong> สร้าง admin tool ด้วย Preact + antd + MobX สำหรับ workflow ของทีม operations (inventory, เครดิต, ใบแจ้งซ่อม, การจอง)</li>
+      <li><strong>Backend:</strong> เขียน REST API ด้วย Go (Gin) และ Node.js (Express) บน MSSQL ที่ใช้ stored procedure; เขียน service หนึ่งใหม่จาก Node.js เป็น Go เพื่อให้ deployment บน Kubernetes เบาลง</li>
+      <li><strong>Hardware integration:</strong> เขียน Bluetooth Low Energy (BLE) bridge ด้วย Go ให้สั่งตัดผ่านเว็บได้ จากเดิมที่สั่งได้แค่จาก tablet บนเครื่อง</li>
+      <li><strong>Platform &amp; infrastructure:</strong> ย้าย service จาก PM2 &rarr; Docker &rarr; self-managed Kubernetes ด้วย Helm + ArgoCD GitOps; แปลง batch script เดิมให้กลายเป็น Kubernetes CronJob</li>
+      <li><strong>Collaboration:</strong> ทำงานร่วมกับ stakeholder ที่ไม่ใช่สาย tech (operations, sales) เพื่อเก็บ requirement; วางแผน release ทั้ง web, mobile และ backend</li>
+    </ul>
+
+    <p class="inline-note"><strong>ผลงานฝั่งทีม tech:</strong> ออกแบบ frontend boilerplate มาตรฐาน (Vite + Preact + TS + antd + react-query + zustand + react-hook-form + yup + Vitest + Husky) — ใช้เป็น starting point มาตรฐานสำหรับ web project ใหม่</p>
+
+    <p class="inline-note"><strong>ผลงานก่อนหน้าในตำแหน่งเดียวกัน:</strong> frontend ของระบบ CRM (หน้าจอ order management และ sales order ร่วมเก็บ requirement และรับ change request), portal ฝึกอบรมสำหรับองค์กรพันธมิตรภายนอก และโมดูล attendance &amp; HR บน mobile app (เช็คอิน / ออก, ขอเบิกค่าใช้จ่าย, ขอลางาน)</p>
+
+    <h2>ประสบการณ์การสอน</h2>
+    <div class="clearfix">
+      <span class="right">มีนาคม 2026</span>
+      <p class="subhead">Guest Lecturer — Golang Programming</p>
+    </div>
+    <p>คอร์ส 3 วันให้นักศึกษาวิทยาการคอมพิวเตอร์ 10–20 คน ที่ <strong>Kanchanaburi Rajabhat University (มหาวิทยาลัยราชภัฏกาญจนบุรี)</strong> — พื้นฐานภาษา Go จนถึงการพัฒนา REST API จริง</p>
+
+    <h2>ทักษะทางเทคนิค</h2>
+    <table class="skills">
+      <tr><td class="cat">Frontend</td><td>React, Preact, TypeScript, Next.js, Vite, antd, MobX, react-query, zustand, react-hook-form, yup</td></tr>
+      <tr><td class="cat">Mobile</td><td>React Native (Android &amp; iOS, Play Store + App Store), native modules, Bluetooth Low Energy</td></tr>
+      <tr><td class="cat">Backend</td><td>Go (Gin), Node.js, NestJS, Express, C# .NET, REST APIs, JWT / OAuth2</td></tr>
+      <tr><td class="cat">Databases</td><td>MSSQL (stored procedure), MySQL, PostgreSQL</td></tr>
+      <tr><td class="cat">Platform &amp; Infrastructure</td><td>Docker, Kubernetes, Helm, ArgoCD (GitOps), CI/CD</td></tr>
+    </table>
+
+    <h2>การศึกษา</h2>
+    <div class="clearfix">
+      <span class="right">2019 – 2023</span>
+      <p class="subhead">วิทยาศาสตรบัณฑิต สาขาวิทยาการคอมพิวเตอร์</p>
+    </div>
+    <p class="meta">Kanchanaburi Rajabhat University (มหาวิทยาลัยราชภัฏกาญจนบุรี) &middot; GPA 3.01 / 4.00</p>
+    <ul>
+      <li><strong>โปรเจคจบ (ต.ค. 2023):</strong> full-stack app — React + TypeScript / ASP.NET RESTful API + ORM / MSSQL</li>
+      <li><strong>กิจกรรมการสอนระหว่างเรียน (ก.ย. 2023):</strong> สอน frontend — HTML, CSS และพื้นฐานการใช้ Git</li>
+      <li><strong>กิจกรรมการสอนระหว่างเรียน (ก.ย. 2022):</strong> สอน JavaScript ร่วมกับ HTML และการ deploy ไปยัง Netlify</li>
+    </ul>
+
+    <h2>ใบรับรอง</h2>
+    <ul>
+      <li>Ultimate Golang Backend: Backend Development with Go — Udemy, 2025</li>
+      <li>Build a Microservices App with .NET and Next.js — Udemy, 2023</li>
+      <li>.NET Core and React App Development — Udemy, 2022</li>
+    </ul>
+
+  </main>
+</body>
+</html>

@@ -3,36 +3,29 @@ id: intro
 title: About Karan
 sidebar_position: 1
 slug: /intro
-description: ทำความรู้จัก Karan — engineer, speaker และ lifelong learner
+description: ทำความรู้จัก Karan Khumthong — Software Developer based in Bangkok
 ---
 
 # About Karan
 
-สวัสดีครับ ผมชื่อ **Karan** ทำงานสายเทคโนโลยีที่ชอบลงมือทำ ทดลอง และแบ่งปันความรู้
-หน้านี้เป็น profile site ของผมที่เขียนด้วย Markdown แล้วให้ Docusaurus แปลงเป็นเว็บอัตโนมัติ
-แก้ไขเนื้อหาได้ทุกไฟล์ใน `docs/` แล้ว rebuild ก็จะอัปเดตทันที
+สวัสดีครับ ผมชื่อ **Karan Khumthong (การัณย์ ขุมทอง)** เป็น Software Developer ที่ Bangkok
+ทำงานสาย Full-Stack ทั้ง web และ mobile application
 
-## ภาพรวมสั้น ๆ
+## Quick Overview
 
-- **บทบาทปัจจุบัน** — Software/Platform Engineer
-- **ความสนใจ** — Developer experience, automation, AI-assisted workflows
-- **อยู่ที่** — ประเทศไทย พร้อมทำงาน remote ทั่วโลก
-- **เปิดรับ** — งานที่ปรึกษา, การบรรยาย, workshops
+- **Current role** — Software Developer, Dplus Intertrade (Zettasoft) · Jan 2024 – Present
+- **Education** — B.Sc. Computer Science, Kanchanaburi Rajabhat University (2019–2023), GPA 3.01
+- **Location** — Bangkok Rama 3, Thailand
+- **Email** — [ka12m.karan@gmail.com](mailto:ka12m.karan@gmail.com)
+- **GitHub** — [@karan-khu](https://github.com/karan-khu)
 
-## โครงสร้างของเว็บนี้
+## ที่นี่มีอะไรบ้าง
 
-| Section | ใช้ทำอะไร |
+| Section | เนื้อหา |
 | --- | --- |
-| [About](/about/intro) | แนะนำตัว, แนวทางการทำงาน |
-| [Experience](/about/experience) | ประวัติการทำงาน, ตำแหน่ง, ผลงานเด่น |
-| [Education](/about/education) | การศึกษา, certificate, course สำคัญ |
-| [Skills](/about/skills) | เทคโนโลยีที่ถนัด และที่กำลังฝึก |
-| [Contact](/about/contact) | ช่องทางติดต่อและ social links |
+| [Experience](/about/experience) | ประวัติการทำงาน |
+| [Education](/about/education) | การศึกษา |
+| [Skills](/about/skills) | เทคโนโลยีที่ถนัด |
+| [Contact](/about/contact) | ช่องทางติดต่อ |
 | [Activity log](/blog) | บันทึก meeting share tech, สอน, อบรม |
-
-## ทำไมต้องเป็น Docusaurus?
-
-- เขียนทุกอย่างเป็น **Markdown** จัดการง่ายผ่าน Git
-- มี **blog** และ **docs** ในตัว ไม่ต้องสร้าง CMS เพิ่ม
-- รองรับ **MDX** อยากใส่ React component ก็ทำได้
-- Deploy ฟรีบน **GitHub Pages** ผ่านคำสั่งเดียว
+| [Docs](/docs/skills/frontend) | เอกสารเชิงเทคนิคละเอียด |

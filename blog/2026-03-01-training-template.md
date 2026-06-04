@@ -2,7 +2,7 @@
 slug: training-template
 title: "Training: ชื่อคอร์ส / อบรม"
 authors: [karan]
-tags: [training]
+tags: [tech-sharing]
 ---
 
 ตัวอย่างโพสต์ **เข้าอบรม / คอร์ส** เพื่อเก็บสรุปสิ่งที่ได้เรียน

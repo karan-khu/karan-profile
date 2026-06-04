@@ -2,7 +2,7 @@
 slug: meeting-share-tech-template
 title: "Share tech: หัวข้อตัวอย่าง"
 authors: [karan]
-tags: [meeting]
+tags: [tech-sharing]
 ---
 
 โพสต์ตัวอย่างสำหรับ **meeting share tech** ภายในทีม

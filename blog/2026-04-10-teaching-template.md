@@ -2,7 +2,7 @@
 slug: teaching-template
 title: "Teaching: ชื่อหัวข้อที่ไปสอน"
 authors: [karan]
-tags: [teaching]
+tags: [tech-event]
 ---
 
 ตัวอย่างโพสต์ **รับเชิญไปสอน / บรรยาย** — เก็บไว้เป็นบันทึกหลังจบงาน

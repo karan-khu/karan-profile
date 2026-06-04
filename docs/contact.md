@@ -11,14 +11,12 @@ description: ช่องทางการติดต่อ
 
 ## Get in touch
 
-- **Email** — `you@example.com`
+- **Email** — [ka12m.karan@gmail.com](mailto:ka12m.karan@gmail.com)
 - **GitHub** — [@karan-khu](https://github.com/karan-khu)
-- **LinkedIn** — _เพิ่ม link ตรงนี้_
-- **X / Twitter** — _เพิ่ม link ตรงนี้_
 
 ## What I'm open to
 
-- ✅ งานที่ปรึกษาด้าน software architecture / DX
+- ✅ งานที่ปรึกษาด้าน software development
 - ✅ บรรยาย, สอน, หรือร่วม panel ในงาน meetup และคอนเฟอร์เรนซ์
 - ✅ Workshop ภายในบริษัท
 - ⚠️ งาน full-time พิจารณาเป็นกรณีไป

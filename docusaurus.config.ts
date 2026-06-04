@@ -1,115 +1,153 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+import { themes as prismThemes } from "prism-react-renderer";
+import type { Config } from "@docusaurus/types";
+import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: 'Karan Profile',
-  tagline: 'Engineer · Speaker · Lifelong Learner',
-  favicon: 'img/favicon.ico',
+  title: "Karan Khumthong",
+  tagline: "Software Developer · Full-Stack · Bangkok",
+  favicon: "img/favicon.ico",
 
   future: {
     v4: true,
   },
 
-  url: 'https://karan-khu.online',
-  baseUrl: '/',
+  url: "https://karan-khu.online",
+  baseUrl: "/",
 
-  organizationName: 'karan-khu',
-  projectName: 'karan-profile',
+  organizationName: "karan-khu",
+  projectName: "karan-profile",
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: "throw",
 
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en", "th"],
+    localeConfigs: {
+      en: { label: "English" },
+      th: { label: "ภาษาไทย" },
+    },
   },
 
   markdown: {
-    format: 'detect',
+    format: "detect",
   },
+
+  plugins: [
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "profile",
+        path: "docs-profile",
+        routeBasePath: "docs",
+        sidebarPath: "./sidebars-profile.ts",
+      },
+    ],
+  ],
 
   presets: [
     [
-      'classic',
+      "classic",
       {
         docs: {
-          sidebarPath: './sidebars.ts',
-          routeBasePath: 'about',
-          editUrl: 'https://github.com/karan-khu/karan-profile/tree/main/',
+          sidebarPath: "./sidebars.ts",
+          routeBasePath: "about",
+          editUrl: "https://github.com/karan-khu/karan-profile/tree/main/",
         },
         blog: {
           showReadingTime: true,
-          blogTitle: 'Activity log',
-          blogDescription: 'Talks, training, meetings และกิจกรรมต่าง ๆ',
+          blogTitle: "Activity log",
+          blogDescription: "Talks, training, meetings และกิจกรรมต่าง ๆ",
           postsPerPage: 10,
           feedOptions: {
-            type: ['rss', 'atom'],
+            type: ["rss", "atom"],
             xslt: true,
           },
-          editUrl: 'https://github.com/karan-khu/karan-profile/tree/main/',
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+          editUrl: "https://github.com/karan-khu/karan-profile/tree/main/",
+          onInlineTags: "warn",
+          onInlineAuthors: "warn",
+          onUntruncatedBlogPosts: "warn",
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       } satisfies Preset.Options,
     ],
   ],
 
   themeConfig: {
-    image: 'img/docusaurus-social-card.jpg',
+    image: "img/docusaurus-social-card.jpg",
     colorMode: {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Karan',
+      title: "Karan",
       logo: {
-        alt: 'Karan Profile Logo',
-        src: 'img/logo.svg',
+        alt: "Karan Profile Logo",
+        src: "img/logo.svg",
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'profileSidebar',
-          position: 'left',
-          label: 'About',
+          type: "docSidebar",
+          sidebarId: "profileSidebar",
+          position: "left",
+          label: "About",
         },
-        {to: '/blog', label: 'Activity', position: 'left'},
         {
-          href: 'https://github.com/karan-khu',
-          label: 'GitHub',
-          position: 'right',
+          to: "/resume",
+          label: "Resume",
+          position: "left",
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "docsProfileSidebar",
+          docsPluginId: "profile",
+          position: "left",
+          label: "Docs",
+        },
+        { to: "/blog", label: "Activity", position: "left" },
+        {
+          type: "localeDropdown",
+          position: "right",
+        },
+        {
+          href: "https://github.com/karan-khu",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Profile',
+          title: "Profile",
           items: [
-            {label: 'About', to: '/about/intro'},
-            {label: 'Experience', to: '/about/experience'},
-            {label: 'Education', to: '/about/education'},
+            { label: "About", to: "/about/intro" },
+            { label: "Resume", to: "/resume" },
+            { label: "Contact", to: "/about/contact" },
           ],
         },
         {
-          title: 'Activity',
+          title: "Deep Dive",
           items: [
-            {label: 'Activity log', to: '/blog'},
-            {label: 'Tags', to: '/blog/tags'},
+            { label: "Skills", to: "/docs/skills/frontend" },
+            { label: "Experience", to: "/docs/experience/dplus-zettasoft" },
+            { label: "Teaching", to: "/docs/teaching/" },
           ],
         },
         {
-          title: 'Elsewhere',
+          title: "Activity",
           items: [
-            {label: 'GitHub', href: 'https://github.com/karan-khu'},
+            { label: "Activity log", to: "/blog" },
+            { label: "Tags", to: "/blog/tags" },
           ],
+        },
+        {
+          title: "Elsewhere",
+          items: [{ label: "GitHub", href: "https://github.com/karan-khu" }],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Karan. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Karan Khumthong. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

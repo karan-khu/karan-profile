@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Karan Khumthong — Resume (EN)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --ink: #1a1a1a;
+      --muted: #555;
+      --rule: #c8c8c8;
+      --accent: #111;
+      --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+      --body: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html, body { background: #f4f4f5; }
+    body {
+      font-family: var(--body);
+      color: var(--ink);
+      font-size: 9pt;
+      line-height: 1.4;
+      margin: 0;
+      padding: 24px 12px;
+      -webkit-font-smoothing: antialiased;
+    }
+    .page {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 30px 40px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+      border-radius: 4px;
+    }
+    h1 {
+      font-size: 20pt;
+      letter-spacing: 0.3px;
+      margin: 0 0 2px 0;
+      text-align: center;
+      font-weight: 700;
+    }
+    .role {
+      text-align: center;
+      font-size: 10pt;
+      color: var(--muted);
+      margin: 0 0 3px 0;
+    }
+    .contact {
+      text-align: center;
+      font-size: 8.5pt;
+      color: var(--muted);
+      margin: 0 0 10px 0;
+    }
+    h2 {
+      font-size: 9pt;
+      letter-spacing: 1.1px;
+      text-transform: uppercase;
+      margin: 10px 0 3px 0;
+      padding-bottom: 2px;
+      border-bottom: 1px solid var(--rule);
+      font-weight: 700;
+    }
+    h3 {
+      font-size: 9.5pt;
+      margin: 6px 0 1px 0;
+      font-weight: 700;
+    }
+    .meta {
+      font-size: 8pt;
+      color: var(--muted);
+      margin: 0 0 3px 0;
+    }
+    .subhead {
+      font-weight: 600;
+      margin: 5px 0 1px 0;
+    }
+    .subhead .sub {
+      font-weight: 400;
+      color: var(--muted);
+      font-style: italic;
+    }
+    p { margin: 2px 0; }
+    ul { margin: 2px 0 5px 0; padding-left: 18px; }
+    li { margin: 1.5px 0; }
+    strong { font-weight: 700; }
+    em { color: var(--muted); }
+    .skills { width: 100%; border-collapse: collapse; margin: 2px 0 0 0; }
+    .skills td {
+      vertical-align: top;
+      padding: 2px 8px 2px 0;
+      font-size: 8.5pt;
+    }
+    .skills td.cat {
+      width: 26%;
+      font-weight: 700;
+      color: var(--accent);
+      white-space: nowrap;
+    }
+    .summary { text-align: justify; }
+    .languages { font-size: 9pt; }
+    .right {
+      float: right;
+      color: var(--muted);
+      font-weight: 400;
+      font-style: italic;
+      font-size: 8.5pt;
+    }
+    .clearfix::after { content: ""; display: table; clear: both; }
+    .inline-note { margin: 5px 0 1px 0; }
+
+    @media print {
+      html, body { background: #fff; }
+      body { padding: 0; font-size: 8.5pt; line-height: 1.38; orphans: 3; widows: 3; }
+      .page {
+        box-shadow: none;
+        border-radius: 0;
+        padding: 16px 22px;
+        max-width: none;
+      }
+      h2 { margin-top: 9px; break-after: avoid-page; page-break-after: avoid; }
+      h3, .subhead { break-after: avoid-page; page-break-after: avoid; }
+      ul, table, .skills { break-inside: avoid-page; page-break-inside: avoid; }
+    }
+    @page { size: A4; margin: 9mm 11mm; }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <h1>Karan Khumthong</h1>
+    <p class="role">Software Developer / Full-Stack Developer</p>
+    <p class="contact">092-346-1875 &middot; ka12m.karan@gmail.com &middot; Bangkok Rama 3, Thailand</p>
+
+    <h2>About Me</h2>
+    <p class="summary">
+      Software Developer with nearly 3 years of experience at Dplus Intertrade (Zettasoft), working across frontend, mobile, backend, and infrastructure. Main developer on a hardware-integrated platform for film-cutting machines, covering two React Native apps (Play Store / App Store + in-store machine controller), a Preact admin web, Go and Node.js backend services, and a Kubernetes migration. Open to Full-Stack Developer roles spanning frontend, backend, and infrastructure work.
+    </p>
+
+    <h2>Professional Experience</h2>
+    <div class="clearfix">
+      <span class="right">Jan 2024 – Present</span>
+      <h3>Software Developer &middot; Dplus Intertrade (Zettasoft)</h3>
+    </div>
+    <p class="meta"><em>In-house software arm of Dplus Intertrade, a phone-accessory distributor.</em></p>
+
+    <p class="subhead">Current work — film-cutter platform <span class="sub">(internal project for phone-screen film retailers)</span></p>
+    <ul>
+      <li><strong>Mobile (React Native):</strong> Built two production apps — a customer-facing app published on Google Play and Apple App Store, and an in-store tablet app that controls the cutter hardware through native modules.</li>
+      <li><strong>Frontend web:</strong> Built admin tools in Preact + antd + MobX for operations workflows (inventory, credit, tickets, bookings).</li>
+      <li><strong>Backend:</strong> REST APIs in Go (Gin) and Node.js (Express), over MSSQL with stored procedures; rewrote one service from Node.js to Go for a leaner Kubernetes deployment.</li>
+      <li><strong>Hardware integration:</strong> Built a Go Bluetooth Low Energy (BLE) bridge so the cutter can be triggered from the web, not only the on-device tablet.</li>
+      <li><strong>Platform &amp; infrastructure:</strong> Migrated services from PM2 &rarr; Docker &rarr; self-managed Kubernetes (Helm + ArgoCD GitOps); turned ad-hoc batch scripts into proper Kubernetes CronJobs.</li>
+      <li><strong>Collaboration:</strong> Work directly with non-technical stakeholders (operations, sales) on requirements; own release planning across web, mobile, and backend.</li>
+    </ul>
+
+    <p class="inline-note"><strong>Tech team contribution:</strong> designed the standard internal frontend boilerplate (Vite + Preact + TS + antd + react-query + zustand + react-hook-form + yup + Vitest + Husky) — now the default starting point for new web projects.</p>
+
+    <p class="inline-note"><strong>Earlier work in the same role:</strong> frontend for a CRM (order management and sales-order screens, including requirement gathering and change request handling), an external partner training portal, and a mobile attendance &amp; HR module (check-in / out, expense claims, leave requests).</p>
+
+    <h2>Teaching</h2>
+    <div class="clearfix">
+      <span class="right">March 2026</span>
+      <p class="subhead">Guest Lecturer — Golang Programming</p>
+    </div>
+    <p>3-day course for 10–20 Computer Science undergraduates at <strong>Kanchanaburi Rajabhat University</strong> — language fundamentals through practical REST API development.</p>
+
+    <h2>Technical Skills</h2>
+    <table class="skills">
+      <tr><td class="cat">Frontend</td><td>React, Preact, TypeScript, Next.js, Vite, antd, MobX, react-query, zustand, react-hook-form, yup</td></tr>
+      <tr><td class="cat">Mobile</td><td>React Native (Android &amp; iOS, Play Store + App Store), native modules, Bluetooth Low Energy</td></tr>
+      <tr><td class="cat">Backend</td><td>Go (Gin), Node.js, NestJS, Express, C# .NET, REST APIs, JWT / OAuth2</td></tr>
+      <tr><td class="cat">Databases</td><td>MSSQL (stored procedures), MySQL, PostgreSQL</td></tr>
+      <tr><td class="cat">Platform &amp; Infrastructure</td><td>Docker, Kubernetes, Helm, ArgoCD (GitOps), CI/CD</td></tr>
+    </table>
+
+    <h2>Education</h2>
+    <div class="clearfix">
+      <span class="right">2019 – 2023</span>
+      <p class="subhead">Bachelor of Science, Computer Science</p>
+    </div>
+    <p class="meta">Kanchanaburi Rajabhat University &middot; GPA 3.01 / 4.00</p>
+    <ul>
+      <li><strong>Final-year project (Oct 2023):</strong> Full-stack app — React + TypeScript / ASP.NET RESTful API + ORM / MSSQL.</li>
+      <li><strong>Student-led workshop (Sep 2023):</strong> Front-end web — HTML, CSS, Git fundamentals.</li>
+      <li><strong>Student-led workshop (Sep 2022):</strong> JavaScript + HTML with deployment to Netlify.</li>
+    </ul>
+
+    <h2>Certifications</h2>
+    <ul>
+      <li>Ultimate Golang Backend: Backend Development with Go — Udemy, 2025</li>
+      <li>Build a Microservices App with .NET and Next.js — Udemy, 2023</li>
+      <li>.NET Core and React App Development — Udemy, 2022</li>
+    </ul>
+
+  </main>
+</body>
+</html>

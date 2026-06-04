@@ -1,44 +1,73 @@
-import type {ReactNode} from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import Heading from '@theme/Heading';
+import type { ReactNode } from "react";
+import clsx from "clsx";
+import Link from "@docusaurus/Link";
+import Layout from "@theme/Layout";
+import Heading from "@theme/Heading";
 
-import styles from './index.module.css';
-
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/about/intro">
-            Read about me
-          </Link>
-          <Link className="button button--outline button--secondary button--lg" to="/blog">
-            Activity log
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
+import styles from "./index.module.css";
 
 export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={siteConfig.title}
-      description="Profile site ของ Karan — engineer, speaker, lifelong learner">
-      <HomepageHeader />
+      title="Karan Khumthong — Software Developer"
+      description="Software Developer and Full-Stack Engineer based in Bangkok, Thailand."
+    >
       <main>
-        <HomepageFeatures />
+        <section className={styles.heroSection}>
+          <div className={clsx("container", styles.heroContainer)}>
+            {/* Avatar with gradient ring */}
+            <div className={styles.heroAvatarRing}>
+              <img
+                src="https://github.com/karan-khu.png"
+                alt="Karan Khumthong"
+                className={styles.heroAvatar}
+              />
+            </div>
+
+            {/* Eyebrow */}
+            <p className={styles.heroEyebrow}>
+              Software Developer · Bangkok, Thailand
+            </p>
+
+            {/* Name */}
+            <Heading as="h1" className={styles.heroName}>
+              Karan Khumthong
+            </Heading>
+            <p className={styles.heroNameTh}>การัณย์ ขุมทอง</p>
+
+            {/* Bio */}
+            <p className={styles.heroBio}>
+              Building web and mobile solutions at Dplus Intertrade (Zettasoft).{" "}
+              Passionate about clean code, developer experience, and sharing
+              knowledge.
+            </p>
+
+            {/* CTAs */}
+            <div className={styles.heroButtons}>
+              <Link
+                className={clsx(
+                  "button button--primary button--lg",
+                  styles.btnPrimary,
+                )}
+                to="/about/intro"
+              >
+                About Me
+              </Link>
+              <Link
+                className={clsx("button button--lg", styles.btnGhost)}
+                to="/resume"
+              >
+                Resume
+              </Link>
+              <Link
+                className={clsx("button button--lg", styles.btnGhost)}
+                to="/blog"
+              >
+                Activity Log
+              </Link>
+            </div>
+          </div>
+        </section>
       </main>
     </Layout>
   );

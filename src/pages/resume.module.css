@@ -1,0 +1,88 @@
+/* ── Page wrapper — fixed under navbar, no page scroll ───── */
+.pageWrapper {
+    position: fixed;
+    top: var(--ifm-navbar-height);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: var(--ifm-background-color);
+    z-index: 1;
+}
+
+/* ── Toolbar ─────────────────────────────────────────────── */
+.toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6rem 1.5rem;
+    background: var(--ifm-background-surface-color);
+    border-bottom: 1px solid var(--karan-tan, #dcc3aa);
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.pageTitle {
+    margin: 0 !important;
+    font-size: 1.3rem !important;
+    line-height: 1 !important;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+/* ── EN / TH toggle ──────────────────────────────────────── */
+.langToggle {
+    display: flex;
+    border: 1.5px solid var(--ifm-color-primary);
+    border-radius: 980px;
+    overflow: hidden;
+}
+
+.langBtn {
+    padding: 0.35rem 1.1rem;
+    border: none;
+    background: transparent;
+    color: var(--ifm-color-primary);
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-family: var(--ifm-font-family-base);
+    font-weight: 500;
+    transition: background-color 0.15s;
+}
+
+.langBtn:hover {
+    background: rgba(129, 11, 56, 0.06);
+}
+
+.langBtnActive {
+    background: var(--ifm-color-primary);
+    color: #fff;
+}
+
+.langBtnActive:hover {
+    background: var(--ifm-color-primary-dark);
+}
+
+/* ── iframe — takes all remaining height ─────────────────── */
+.resumeFrame {
+    flex: 1;
+    width: 100%;
+    border: none;
+    min-height: 0;
+}
+
+/* ── Mobile ──────────────────────────────────────────────── */
+@media screen and (max-width: 768px) {
+    .toolbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
