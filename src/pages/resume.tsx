@@ -3,6 +3,7 @@ import type {ReactNode} from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 import styles from './resume.module.css';
 
@@ -11,10 +12,11 @@ type Lang = 'en' | 'th';
 export default function ResumePage(): ReactNode {
   const [lang, setLang] = useState<Lang>('en');
 
-  const resumeUrl =
+  const resumeUrl = useBaseUrl(
     lang === 'en'
       ? '/resume/Karan_Khumthong_Resume_EN.html'
-      : '/resume/Karan_Khumthong_Resume_TH.html';
+      : '/resume/Karan_Khumthong_Resume_TH.html',
+  );
 
   return (
     <Layout title="Resume" description="Resume of Karan Khumthong / การัณย์ ขุมทอง">
