@@ -9,7 +9,7 @@ description: ทำความรู้จัก Karan Khumthong — Software D
 # About Karan
 
 สวัสดีครับ ผมชื่อ **Karan Khumthong (การัณย์ ขุมทอง)** เป็น Software Developer ที่ Bangkok
-ทำงานสาย Full-Stack ทั้ง web และ mobile application
+ทำงานสาย Full-Stack ครอบคลุม mobile, frontend web, backend API และ infrastructure — nearly 3 ปีที่ Dplus Intertrade (Zettasoft)
 
 ## Quick Overview
 

@@ -2,7 +2,7 @@
 id: infrastructure
 title: Infrastructure
 sidebar_position: 4
-description: Infrastructure and DevOps skills — Docker, CI/CD, cloud
+description: Infrastructure and DevOps skills — Kubernetes, Docker, Helm, ArgoCD, CI/CD
 ---
 
 # Infrastructure Skills
@@ -10,18 +10,24 @@ description: Infrastructure and DevOps skills — Docker, CI/CD, cloud
 ## Containers & Orchestration
 
 - **Docker** — Dockerfile, docker-compose, multi-stage builds
-- **Docker Compose** — local dev environment orchestration
+- **Kubernetes (K8s)** — self-managed cluster, pod/deployment/service management
+- **Helm** — chart packaging, release management
+- **Kubernetes CronJobs** — แปลง ad-hoc batch scripts เป็น scheduled workloads
 
-## CI/CD
+## GitOps & CI/CD
 
+- **ArgoCD** — GitOps-based continuous delivery บน Kubernetes
 - **GitHub Actions** — automated test, build, deploy pipelines
-- Deploy to GitHub Pages (this site uses this workflow)
+
+## Migration Path
+
+เคย migrate services จาก **PM2 → Docker → Kubernetes** ใน production environment
 
 ## DNS & Hosting
 
 - **Cloudflare** — DNS management, CDN, caching rules
 - **GitHub Pages** — static site hosting
-- **z.com domain** — custom domain setup
+- **Nginx** — reverse proxy, static serving
 
 ## Version Control
 

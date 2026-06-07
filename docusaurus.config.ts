@@ -82,8 +82,9 @@ const config: Config = {
     navbar: {
       title: "Karan",
       logo: {
-        alt: "Karan Profile Logo",
-        src: "img/logo.svg",
+        alt: "Karan Khumthong",
+        src: "img/profile.jpg",
+        style: { borderRadius: "50%" },
       },
       items: [
         {

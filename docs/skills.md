@@ -10,29 +10,23 @@ description: เทคโนโลยีที่ถนัด และที่
 ## Languages
 
 - **TypeScript / JavaScript** — ใช้งานหลัก, ทำทั้ง frontend และ backend
-- **Go** — เขียน service ฝั่ง backend และ CLI tools
-- **Python** — งาน data, scripting, automation
-- **SQL** — PostgreSQL, MySQL, query tuning เบื้องต้น
+- **Go** — production backend (Gin), BLE bridge services, performance-critical rewrites
+- **SQL** — MSSQL (stored procedures), MySQL, PostgreSQL
 
 ## Frameworks & Tools
 
 | หมวด | สิ่งที่ใช้ |
 | --- | --- |
-| Frontend | React, Next.js, Docusaurus |
-| Backend | Node.js, Express, NestJS, Go (chi/gin) |
-| Data | PostgreSQL, Redis, Kafka |
-| Infra | Docker, Kubernetes, Terraform |
-| DevOps | GitHub Actions, GitLab CI, ArgoCD |
-| Observability | Prometheus, Grafana, OpenTelemetry |
-
-## Currently Learning
-
-- Rust สำหรับงาน performance-critical
-- AI-assisted development (Claude, Copilot, custom agents)
-- System design ระดับองค์กรใหญ่
+| Frontend | Preact, React, Next.js, antd, MobX, react-query, zustand |
+| Backend | Go (Gin), Node.js, Express, NestJS, JWT / OAuth2 |
+| Mobile | React Native (Android & iOS), native modules, BLE |
+| Database | MSSQL, MySQL, PostgreSQL |
+| Infra | Docker, Kubernetes, Helm, ArgoCD (GitOps) |
+| DevOps | GitHub Actions, CI/CD |
 
 ## Soft Skills
 
+- ทำงานร่วมกับ non-technical stakeholders (operations, sales)
+- Release planning ข้ามทีม (web, mobile, backend)
 - Mentoring และ knowledge sharing
 - Technical writing
-- Cross-team collaboration
