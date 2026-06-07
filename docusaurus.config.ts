@@ -12,7 +12,7 @@ const config: Config = {
   },
 
   url: "https://karan-khu.github.io",
-  baseUrl: "/karan-profile/",
+  baseUrl: process.env.GITHUB_ACTIONS ? "/karan-profile/" : "/",
 
   organizationName: "karan-khu",
   projectName: "karan-profile",
