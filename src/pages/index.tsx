@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import clsx from "clsx";
 import Link from "@docusaurus/Link";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 import Layout from "@theme/Layout";
 import Heading from "@theme/Heading";
 
@@ -18,7 +19,7 @@ export default function Home(): ReactNode {
             {/* Avatar with gradient ring */}
             <div className={styles.heroAvatarRing}>
               <img
-                src="https://github.com/karan-khu.png"
+                src={useBaseUrl("/img/profile.jpg")}
                 alt="Karan Khumthong"
                 className={styles.heroAvatar}
               />

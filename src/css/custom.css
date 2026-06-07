@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Sans:wght@300;400;500;600&family=Prompt:wght@300;400;600;700&family=Sarabun:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Prompt:wght@300;400;600;700&family=Sarabun:wght@300;400;500;600&display=swap");
 
 /* ── Light mode ─────────────────────────────────────────── */
 :root {
@@ -22,10 +22,10 @@
     --ifm-background-surface-color: #ffffff;
     --ifm-navbar-background-color: #ffffff;
 
-    /* Typography — Thai fonts as fallback for mixed-language pages */
-    --ifm-font-family-base: "IBM Plex Sans", "Sarabun", sans-serif;
+    /* Typography — Inter for English; Thai fonts as fallback for mixed-language pages */
+    --ifm-font-family-base: "Inter", "Sarabun", sans-serif;
     /* Prompt is sans-serif but has Thai glyphs — fallback for inline Thai in EN headings */
-    --ifm-heading-font-family: "Playfair Display", "Prompt", sans-serif;
+    --ifm-heading-font-family: "Inter", "Prompt", sans-serif;
 
     --ifm-code-font-size: 95%;
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
