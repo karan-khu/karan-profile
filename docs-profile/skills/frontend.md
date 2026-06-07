@@ -14,12 +14,12 @@ description: Frontend development skills — Preact, React, TypeScript, antd, Mo
 
 ## Frameworks & Libraries
 
-| เครื่องมือ | ระดับ | หมายเหตุ |
-| --- | --- | --- |
-| Preact | ★★★★★ | production frontend, admin tools (antd + MobX) |
-| React | ★★★★☆ | hooks, context, custom hooks |
-| Next.js | ★★★☆☆ | App Router, SSR/SSG |
-| Docusaurus | ★★★★☆ | ใช้สร้าง profile site นี้ |
+| เครื่องมือ | หมายเหตุ |
+| --- | --- |
+| Preact | production frontend, admin tools (antd + MobX) |
+| React | hooks, context, custom hooks |
+| Next.js | App Router, SSR/SSG |
+| Docusaurus | ใช้สร้าง profile site นี้ |
 
 ## State Management
 
